@@ -1,7 +1,7 @@
 const express = require('express');
 const { default: mongoose } = require('mongoose');
 const app = express();
-const session = require('cookie-session');
+const session = require('express-session');
 const path = require('path');
 const userRoute = require('./route/user.route.js'); // User-related routes
 const profileRoute = require('./route/profile.route.js'); // Profile-related routes
