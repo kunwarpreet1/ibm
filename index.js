@@ -67,7 +67,7 @@ app.get('/register', (req, res) => {
 });
 
 app.get('/ngos', (req, res) => {
-  res.render('NGO-Page');
+  res.render('NGO-page');
 });
 
 app.get('/banquets', (req, res) => {
